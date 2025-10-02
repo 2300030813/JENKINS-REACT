@@ -75,7 +75,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Patient-Management-</h1>
+      <h1>Patient Management</h1>
 
       <h2>{editPatient ? "Edit Patient" : "Add Patient"}</h2>
       <form className="form" onSubmit={handleSubmit}>
